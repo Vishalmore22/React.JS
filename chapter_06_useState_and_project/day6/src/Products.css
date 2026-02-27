@@ -1,0 +1,11 @@
+.card {
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: rgb(174, 136, 240);
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
