@@ -1,4 +1,5 @@
 import { About } from "./components/About/about"
+import { Footer } from "./components/footer/footer"
 import { Hero } from "./components/hero/hero"
 import { Navbar } from "./components/navbar/nav"
 import { Project } from "./components/project/project"
@@ -12,5 +13,6 @@ export const App = () => {
     <About/>
     <Skills/>
     <Project/>
+    <Footer/>
   </>
 }
