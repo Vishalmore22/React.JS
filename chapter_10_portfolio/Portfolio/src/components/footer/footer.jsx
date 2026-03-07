@@ -1,4 +1,4 @@
-import footer from "../../assets/footer-1.gif";
+
 export const Footer = () => {
     return <>
         <div className="container">
