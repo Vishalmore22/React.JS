@@ -8,7 +8,7 @@ export default function Form() {
     const [check, setCheck] = useState(false);
     const nameRegex = /^[A-Za-z ]{3,30}$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const contactRegex = /^[6-9]\d{10}$/;
+    const contactRegex = /^[6-9]\d{9}$/;
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@#$%^&*!]{6,}$/;
 
     const handleSubmit = (e) => {
@@ -24,40 +24,21 @@ export default function Form() {
             return;
         }
 
-        if (!contactRegex.test(user.contact || "")) {
-            alert("Invalid Contact Number");
-            console.log(typeof user.contact);
-            console.log(user.contact);
-            console.log((user.contact).length);
-            
-            return;
-        }
+        // if (!contactRegex.test((user.contact || "").trim())) {
+        //     alert("Invalid Contact Number");
+        //     return;
+        // }
 
         if (!passwordRegex.test(user.password || "")) {
             alert("Invalid Password");
             return;
         }
-
-        localStorage.setItem("user", JSON.stringify(user));
-        alert("Form Submitted !!");
+        const users = JSON.parse(localStorage.getItem("users")) || []; // []
+        users.push(user);
+        localStorage.setItem("users", JSON.stringify(users));
+        alert("Form Submitted !!")
         navigate("/home");
     };
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();//for stop reload 
-    //     console.log(user.email);
-    //     if (user.email == undefined || user.email == "") {
-    //         alert("email is required !");
-    //     }
-    //     else if (user.name == undefined || user.name == "") {
-    //         alert("Name is required !");
-    //     }
-    //     else
-    //     {
-    //         localStorage.setItem("user", JSON.stringify(user));
-    //         alert("Form Submitted !!");
-    //         navigate("/home");
-    //     }
-    // }
 
     return (
         <div style={{ height: "100vh" }} className='container d-flex justify-content-center align-items-center'>
@@ -102,6 +83,19 @@ export default function Form() {
                             id="number"
                             aria-describedby="emailHelp"
                         />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="fees" className="form-label">
+                            Fees
+                        </label>
+                        <input
+                            onChange={(e) => setUser({ ...user, fees: e.target.value })}
+                            type="number"
+                            className="form-control"
+                            id="fees"
+                            aria-describedby="emailHelp"
+                        />
+
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label">
