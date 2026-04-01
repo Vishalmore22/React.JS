@@ -9,8 +9,8 @@ export default function Cart() {
             {
                 products.map((product, i) =>
                     <div key={i} className='card w-25 h-25 p-3'>
-                        <p>{product.title}</p>
-                        <img src={product.images[0]} alt="" />
+                        <p>{product.name}</p>
+                        <img src={product.image} alt="" />
                         <button onClick={() => {
                             const arr = [...products];
                             arr.splice(i, 1);
