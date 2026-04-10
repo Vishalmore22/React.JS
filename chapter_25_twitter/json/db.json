@@ -1,0 +1,13 @@
+{
+    "tweets": [],
+    "users": [
+        {
+            "name": "vishal more",
+            "email": "vishalmoreee123@gmail.com",
+            "phone": "1234567890",
+            "password": "vishal@311",
+            "id": "dxqZuR8Ko80"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}
