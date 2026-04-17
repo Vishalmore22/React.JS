@@ -1,12 +1,43 @@
 {
-  "tweets": [],
+  "tweets": [
+    {
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, asperiores delectus repellat incidunt accusantium, aut blanditiis, placeat praesentium officiis consectetur temporibus debitis est. Porro cum, reiciendis deserunt ullam voluptatibus maxime.",
+      "user": "aman gupta",
+      "createdAt": "10/4/2025 05:32 PM ",
+      "id": "QCFxv7YMJM4"
+    },
+    {
+      "text": "hello",
+      "user": "vishalmoreee123@gmail.com",
+      "createdAt": "17/3/2026 16:3",
+      "id": "S9YQCzNQ6q4"
+    },
+    {
+      "text": "new",
+      "user": "vishalmoreee123@gmail.com",
+      "createdAt": "17/3/2026 16:5",
+      "id": "nJ9xugcog7Y"
+    },
+    {
+      "text": "",
+      "user": "vishalmoreee123@gmail.com",
+      "createdAt": "17/3/2026 18:19",
+      "id": "3ZJ0Hi54KV0"
+    },
+    {
+      "text": "heee",
+      "user": "vishalmoreee123@gmail.com",
+      "createdAt": "17/3/2026 18:50",
+      "id": "ssk_WTMs2h0"
+    }
+  ],
   "users": [
     {
       "name": "vishal more",
       "email": "vishalmoreee123@gmail.com",
-      "phone": "1234567890",
-      "password": "vishal@311",
-      "id": "dxqZuR8Ko80"
+      "phone": "6353011737",
+      "password": "VishalMore23",
+      "id": "7wLlu5Hi1xo"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
