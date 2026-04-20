@@ -1,41 +1,23 @@
 {
   "tweets": [
     {
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, asperiores delectus repellat incidunt accusantium, aut blanditiis, placeat praesentium officiis consectetur temporibus debitis est. Porro cum, reiciendis deserunt ullam voluptatibus maxime.",
-      "user": "aman gupta",
-      "createdAt": "10/4/2025 05:32 PM ",
-      "id": "QCFxv7YMJM4"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur quos repudiandae cum, consequuntur earum quia numquam qui corporis adipisci animi perferendis. Dolorem totam illum excepturi sapiente nulla magni dolores.",
+      "user": "vishalmoreee123@gmail.com",
+      "createdAt": "20/3/2026 13:59",
+      "id": "uXSln6wtk4Q"
     },
     {
-      "text": "hello",
+      "text": "good morning ",
       "user": "vishalmoreee123@gmail.com",
-      "createdAt": "17/3/2026 16:3",
-      "id": "S9YQCzNQ6q4"
-    },
-    {
-      "text": "new",
-      "user": "vishalmoreee123@gmail.com",
-      "createdAt": "17/3/2026 16:5",
-      "id": "nJ9xugcog7Y"
-    },
-    {
-      "text": "",
-      "user": "vishalmoreee123@gmail.com",
-      "createdAt": "17/3/2026 18:19",
-      "id": "3ZJ0Hi54KV0"
-    },
-    {
-      "text": "heee",
-      "user": "vishalmoreee123@gmail.com",
-      "createdAt": "17/3/2026 18:50",
-      "id": "ssk_WTMs2h0"
+      "createdAt": "20/3/2026 14:51",
+      "id": "dqyCIdYqwc0"
     }
   ],
   "users": [
     {
       "name": "vishal more",
       "email": "vishalmoreee123@gmail.com",
-      "phone": "6353011737",
+      "phone": "1234567890",
       "password": "VishalMore23",
       "id": "7wLlu5Hi1xo"
     }

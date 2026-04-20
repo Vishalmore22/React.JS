@@ -22,16 +22,20 @@ export default function SignUp() {
             alert("Invalid Email");
             return;
         }
-
+        if (user.phone >= 9999999999 || "") {
+            alert("Invalid contact");
+            return;
+        }
         if (!passwordRegex.test(user.password || "")) {
             alert("Invalid Password");
             return;
         }
+
         // check if email already exists in db.json
         const checkUser = await axios.get(`${users_api}?email=${user.email}`);
 
         if (checkUser.data.length > 0) {
-            alert("Email already exists!");
+            alert("This account already exists !");
             return;
         }
 
