@@ -20,6 +20,13 @@
       "phone": "1234567890",
       "password": "VishalMore23",
       "id": "7wLlu5Hi1xo"
+    },
+    {
+      "name": "om mali",
+      "email": "om@gmail.com",
+      "phone": "1234567890",
+      "password": "OMmali2002",
+      "id": "3vZ0YEY-tY4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
