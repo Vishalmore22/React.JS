@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@hrms.com",
+      "password": "admin123",
+      "role": "admin",
+      "hourlyRate": 0,
+      "joinDate": "2026-05-01"
+    },
+    {
+      "id": 2,
+      "name": "Manager Mike",
+      "email": "manager@hrms.com",
+      "password": "manager123",
+      "role": "manager",
+      "hourlyRate": 350,
+      "joinDate": "2026-05-01"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "email": "john@hrms.com",
+      "password": "john123",
+      "role": "employee",
+      "hourlyRate": 200,
+      "joinDate": "2026-05-01"
+    },
+    {
+      "name": "vishal more",
+      "email": "vishalmoreee123@gmail.com",
+      "password": "Vishal@123",
+      "role": "employee",
+      "hourlyRate": 500,
+      "joinDate": "2026-05-11",
+      "id": 4
+    }
+  ],
+  "attendance": [
+    {
+      "userId": 3,
+      "date": "2026-05-01",
+      "checkIn": "2026-05-01T03:30:06.778Z",
+      "checkOut": "2026-05-01T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-02",
+      "checkIn": null,
+      "checkOut": null,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-04",
+      "checkIn": "2026-05-04T03:30:06.778Z",
+      "checkOut": "2026-05-04T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-05",
+      "checkIn": "2026-05-05T03:30:06.778Z",
+      "checkOut": "2026-05-05T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-06",
+      "checkIn": "2026-05-06T03:30:06.778Z",
+      "checkOut": "2026-05-06T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-07",
+      "checkIn": null,
+      "checkOut": null,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-08",
+      "checkIn": "2026-05-08T03:30:06.778Z",
+      "checkOut": "2026-05-08T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-09",
+      "checkIn": "2026-05-09T03:30:06.778Z",
+      "checkOut": "2026-05-09T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-11",
+      "checkIn": "2026-05-11T03:30:06.778Z",
+      "checkOut": "2026-05-11T11:30:06.778Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-12",
+      "checkIn": "2026-05-12T03:30:06.778Z",
+      "checkOut": "2026-05-12T11:30:06.778Z",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-13",
+      "checkIn": "2026-05-14T03:30:06.778Z",
+      "checkOut": "2026-05-14T11:30:06.778Z",
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-01",
+      "checkIn": "2026-05-01T09:02:15.362Z",
+      "checkOut": "2026-05-01T17:05:20.469Z",
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-02",
+      "checkIn": "2026-05-02T09:10:12.362Z",
+      "checkOut": "2026-05-02T17:15:30.469Z",
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-03",
+      "checkIn": "2026-05-03T08:55:10.362Z",
+      "checkOut": "2026-05-03T17:01:40.469Z",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-04",
+      "checkIn": "2026-05-04T09:20:45.362Z",
+      "checkOut": "2026-05-04T17:22:11.469Z",
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-05",
+      "checkIn": "2026-05-05T09:05:30.362Z",
+      "checkOut": "2026-05-05T17:00:05.469Z",
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-06",
+      "checkIn": "2026-05-06T08:58:55.362Z",
+      "checkOut": "2026-05-06T17:18:25.469Z",
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-07",
+      "checkIn": "2026-05-07T09:12:40.362Z",
+      "checkOut": "2026-05-07T17:08:15.469Z",
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-08",
+      "checkIn": "2026-05-08T09:00:00.362Z",
+      "checkOut": "2026-05-08T17:10:45.469Z",
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-09",
+      "checkIn": "2026-05-09T09:07:18.362Z",
+      "checkOut": "2026-05-09T17:14:55.469Z",
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-10",
+      "checkIn": "2026-05-10T08:50:22.362Z",
+      "checkOut": "2026-05-10T17:02:10.469Z",
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-11",
+      "checkIn": "2026-05-11T12:27:13.886Z",
+      "checkOut": null,
+      "id": 11
+    }
+  ],
+  "leaves": [
+    {
+      "userId": 3,
+      "date": "2026-05-02",
+      "reason": "Health issues ",
+      "status": "approved",
+      "appliedAt": "2026-05-11T08:42:51.805Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-07",
+      "reason": "out of city",
+      "status": "approved",
+      "appliedAt": "2026-05-11T08:46:22.756Z",
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "date": "2026-05-12",
+      "reason": "out of city 12 to 15 ",
+      "status": "approved",
+      "appliedAt": "2026-05-11T12:22:46.446Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "date": "2026-05-17",
+      "reason": "family function",
+      "status": "rejected",
+      "appliedAt": "2026-05-13T08:18:17.555Z",
+      "id": 4
+    }
+  ]
+}
