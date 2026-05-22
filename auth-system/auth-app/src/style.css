@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+.auth-wrap,
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card input {
+    width: 100%;
+    padding: .7rem;
+    margin: .4rem 0;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+.card button {
+    width: 100%;
+    padding: .75rem;
+    margin-top: .6rem;
+    background: #3b82f6;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button:disabled {
+    opacity: .7;
+    cursor: not-allowed;
+}
+
+.card a {
+    color: #60a5fa;
+}
+
+.card p {
+    font-size: .9rem;
+}
+
+.loader {
+    width: 18px;
+    height: 18px;
+    border: 3px solid #fff;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
